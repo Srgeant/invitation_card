@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/invitation_cacrd/static/css/main.9bc4ab8a.css",
-    "main.js": "/invitation_cacrd/static/js/main.521ca810.js",
-    "static/js/453.7e3e3be8.chunk.js": "/invitation_cacrd/static/js/453.7e3e3be8.chunk.js",
-    "static/media/IMG1.JPG": "/invitation_cacrd/static/media/IMG1.3bb74fb55ca8eee2bae5.JPG",
-    "static/media/img4.jpg": "/invitation_cacrd/static/media/img4.9cb380683e2d1bbf79c6.jpg",
-    "static/media/img7.jpg": "/invitation_cacrd/static/media/img7.4bfdb1c9b479838e135c.jpg",
-    "static/media/img5.jpg": "/invitation_cacrd/static/media/img5.f031f4b7dfc60361f406.jpg",
-    "static/media/img6.jpg": "/invitation_cacrd/static/media/img6.67b4713f51b72f583b82.jpg",
-    "static/media/time.jpg": "/invitation_cacrd/static/media/time.b8414998b29a14f0f71e.jpg",
-    "static/media/vertical.webp": "/invitation_cacrd/static/media/vertical.4eaa1f4557336331fd4f.webp",
-    "index.html": "/invitation_cacrd/index.html",
-    "main.9bc4ab8a.css.map": "/invitation_cacrd/static/css/main.9bc4ab8a.css.map",
-    "main.521ca810.js.map": "/invitation_cacrd/static/js/main.521ca810.js.map",
-    "453.7e3e3be8.chunk.js.map": "/invitation_cacrd/static/js/453.7e3e3be8.chunk.js.map"
+    "main.css": "/invitation_card/static/css/main.9bc4ab8a.css",
+    "main.js": "/invitation_card/static/js/main.e69bc1c1.js",
+    "static/js/453.7e3e3be8.chunk.js": "/invitation_card/static/js/453.7e3e3be8.chunk.js",
+    "static/media/IMG1.JPG": "/invitation_card/static/media/IMG1.3bb74fb55ca8eee2bae5.JPG",
+    "static/media/img4.jpg": "/invitation_card/static/media/img4.9cb380683e2d1bbf79c6.jpg",
+    "static/media/img7.jpg": "/invitation_card/static/media/img7.4bfdb1c9b479838e135c.jpg",
+    "static/media/img5.jpg": "/invitation_card/static/media/img5.f031f4b7dfc60361f406.jpg",
+    "static/media/img6.jpg": "/invitation_card/static/media/img6.67b4713f51b72f583b82.jpg",
+    "static/media/time.jpg": "/invitation_card/static/media/time.b8414998b29a14f0f71e.jpg",
+    "static/media/vertical.webp": "/invitation_card/static/media/vertical.4eaa1f4557336331fd4f.webp",
+    "index.html": "/invitation_card/index.html",
+    "main.9bc4ab8a.css.map": "/invitation_card/static/css/main.9bc4ab8a.css.map",
+    "main.e69bc1c1.js.map": "/invitation_card/static/js/main.e69bc1c1.js.map",
+    "453.7e3e3be8.chunk.js.map": "/invitation_card/static/js/453.7e3e3be8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc4ab8a.css",
-    "static/js/main.521ca810.js"
+    "static/js/main.e69bc1c1.js"
   ]
 }
