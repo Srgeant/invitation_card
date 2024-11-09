@@ -1,0 +1,3325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.weddingDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.weddingHeader {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img1Div {
+    width: 1835px;
+    /* height: 932px; */
+    overflow: hidden;
+    position: relative;
+}
+
+.headerImg1 {
+    width: 1835px;
+    height: auto;
+    clip-path: inset(200px 0);
+    transform: translateY(-200px);
+    filter: grayscale(100%) brightness(40%);
+}
+
+.weddingInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: "Beau Rivage", cursive;
+    z-index: 1;
+    width: 1835px;
+    height: 932px;
+    font-size: 100px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.countDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: "PT Serif", serif;
+    z-index: 1;
+    width: 1835px;
+    height: 932px;
+    padding-top: 200px;
+    gap: 50px;
+}
+
+.timeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.label {
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.weddingMain {
+    width: 100%;
+    height: 100%;
+}
+
+.weddingMainDiv {
+    text-align: center;
+}
+
+.weddingMainH2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #626265;
+}
+
+.beforeOrnament {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #626265;
+}
+
+.afterOrnament {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #626265;
+}
+
+.afterOrnament2 {
+    font-size: 18px;
+    color: #626265;
+}
+
+.weddingDay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img4 {
+    width: 500px;
+    height: auto;
+}
+
+.dayOfWedding {
+    position: absolute;
+    z-index: 1;
+    font-size: 40px;
+    font-family: "Beau Rivage", cursive;
+    text-align: center;
+    color: #626265;
+    font-style: italic;
+}
+
+.weddingMainImg {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px;
+}
+
+.leftColumn,
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img5 {
+    width: 460px;
+    height: auto;
+    padding-top: 35px;
+    filter: grayscale(100%) brightness(70%);
+    border-radius: 35%;
+    transform: rotate(-15deg);
+}
+
+.img6 {
+    width: 400px;
+    height: auto;
+    padding-top: 35px;
+    filter: grayscale(100%) brightness(70%);
+    border-radius: 35%;
+    transform: rotate(15deg);
+}
+
+.img7 {
+    width: 460px;
+    height: auto;
+    padding-top: 35px;
+    filter: grayscale(100%) brightness(70%);
+    border-radius: 35%;
+    transform: rotate(15deg);
+}
+
+.img8 {
+    width: 400px;
+    height: auto;
+    padding-top: 35px;
+    filter: grayscale(100%) brightness(70%);
+    border-radius: 35%;
+    transform: rotate(-15deg);
+}
+
+.addressDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.vertical {
+    height: 650px;
+    clip-path: inset(1px 2px 50px 2px);
+}
+
+.church,
+.restaurant{
+    position: absolute;
+    left: 50%;
+    color: #626265;
+}
+
+.churchImg {
+    width: 40px;
+}
+
+.restaurantImg {
+    width: 40px;
+}
+
+.church {
+    top: 45%;
+    transform: translateX(-75%);
+}
+
+.churchHref {
+    color: #626265;
+    font-style: italic;
+}
+
+.restaurant {
+    top: 58%;
+    transform: translateX(-49%);
+}
+
+.restaurantHref {
+    color: #626265;
+    font-style: italic;
+}
+
+.myFooter {
+    padding-top: 20px;
+}
+
+.footerDiv {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footerDiv > a {
+    font-size: 20px;
+    color: #626265;
+    padding-left: 15px;
+}
+
+.myPage {
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.myPage:hover {
+    font-size: 22px;
+}
+
+.myFooter > p {
+    text-align: center;
+    color: #626265;
+    font-size: 22px;
+}
+@media screen and (min-width: 344px) {
+    .weddingDiv {
+        width: 344px;
+        height: 882px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 344px;
+        height: 882px;
+    }
+
+    .headerImg1 {
+        width: 344px;
+        height: 882px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 344px;
+        height: 882px;
+        font-size: 55px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 344px;
+        height: 882px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 30px; 
+    }
+
+    .label {
+        font-size: 12px; 
+    }
+
+    .weddingMain {
+        width: 360px;
+        height: 1180px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 25px;
+    }
+
+    .beforeOrnament {
+        font-size: 16px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 16px;
+    }
+
+    .afterOrnament2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 355px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding-right: 15px;
+    }
+
+    .church {
+        top: 148px;
+        transform: translateX(-61%);
+        font-size: 11px;
+    }
+
+    .churchImg {
+        width: 18px;
+    }
+
+    .restaurantImg {
+        width: 18px;
+    }
+
+    .restaurant {
+        top: 195px;
+        transform: translateX(-50%);
+        font-size: 11px;
+    }
+
+
+    .footerDiv > a {
+        font-size: 16px;
+    }
+    .footerDiv > .myPage {
+        font-size: 14px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 16px;
+    }
+
+    .myFooter > p {
+        font-size: 14px;
+    } 
+}
+@media screen and (min-width: 360px) {
+    .weddingDiv {
+        width: 360px;
+        height: 740px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 360;
+        height: 740px;
+    }
+
+    .headerImg1 {
+        width: 360px;
+        height: 740px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 360px;
+        height: 740px;
+        font-size: 55px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 360px;
+        height: 740px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 30px; 
+    }
+
+    .label {
+        font-size: 13px; 
+    }
+
+    .weddingMain {
+        width: 360px;
+        height: 1180px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 25px;
+    }
+
+    .beforeOrnament {
+        font-size: 16px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 16px;
+    }
+
+    .afterOrnament2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 355px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 150px;
+        transform: translateX(-61%);
+        font-size: 11px;
+    }
+
+    .churchImg{
+        width: 18px;
+    }
+
+    .restaurantImg {
+        width: 18px;
+    }
+
+    .restaurant {
+        top: 197px;
+        transform: translateX(-50%);
+        font-size: 11px;
+    }
+
+    .footerDiv > a {
+        font-size: 17px;
+    }
+    .footerDiv > .myPage {
+        font-size: 16px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 17px;
+    }
+
+    .myFooter > p {
+        font-size: 17px;
+    } 
+}
+@media screen and (min-width: 375px) {
+    .weddingDiv {
+        width: 375px;
+        height: 667px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 375px;
+        height: 667px;
+    }
+
+    .headerImg1 {
+        width: 375px;
+        height: 667px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 375px;
+        height: 667px;
+        font-size: 60px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 375px;
+        height: 667px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 30px; 
+    }
+
+    .label {
+        font-size: 14px; 
+    }
+
+    .weddingMain {
+        width: 375px;
+        height: 1200px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 27px;
+    }
+
+    .beforeOrnament {
+        font-size: 16px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 16px;
+    }
+
+    .afterOrnament2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 375px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 155px;
+        transform: translateX(-58%);
+        font-size: 12px;
+    }
+
+    .churchImg {
+        width: 19px;
+    }
+
+    .restaurant {
+        top: 205px;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+
+    .restaurantImg {
+        width: 19px;
+    }
+
+    .footerDiv > a {
+        font-size: 17px;
+    }
+    .footerDiv > .myPage {
+        font-size: 16px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 17px;
+    }
+
+    .myFooter > p {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 376px) {
+    .weddingDiv {
+        width: 376px;
+        height: 812px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 376px;
+        height: 812px;
+    }
+
+    .headerImg1 {
+        width: 376px;
+        height: 812px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 376px;
+        height: 812px;
+        font-size: 60px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 376px;
+        height: 812px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 30px; 
+    }
+
+    .label {
+        font-size: 14px; 
+    }
+
+    .weddingMain {
+        width: 376px;
+        height: 1200px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 27px;
+    }
+
+    .beforeOrnament {
+        font-size: 16px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 16px;
+    }
+
+    .afterOrnament2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 150px;
+        height: 130px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 120px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 375px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 155px;
+        transform: translateX(-58%);
+        font-size: 12px;
+    }
+
+    .churchImg {
+        width: 19px;
+    }
+
+    .restaurant {
+        top: 205px;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+
+    .restaurantImg {
+        width: 19px;
+    }
+
+    .footerDiv > a {
+        font-size: 17px;
+    }
+    .footerDiv > .myPage {
+        font-size: 16px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 17px;
+    }
+
+    .myFooter > p {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 390px) {
+    .weddingDiv {
+        width: 390px;
+        height: 844px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 390px;
+        height: 844px;
+    }
+
+    .headerImg1 {
+        width: 390px;
+        height: 844px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 390px;
+        height: 844px;
+        font-size: 63px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 390px;
+        height: 844px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 32px; 
+    }
+
+    .label {
+        font-size: 15px; 
+    }
+
+    .weddingMain {
+        width: 390px;
+        height: 1240px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 27px;
+    }
+
+    .beforeOrnament {
+        font-size: 16px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 16px;
+    }
+
+    .afterOrnament2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 390px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 160px;
+        transform: translateX(-60%);
+        font-size: 12px;
+    }
+
+    .churchImg {
+        width: 20px;
+    }
+
+    
+    .restaurant {
+        top: 212px;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+    
+    .restaurantImg {
+        width: 20px;
+    }
+
+    .footerDiv > a {
+        font-size: 18px;
+    }
+    .footerDiv > .myPage {
+        font-size: 18px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 19px;
+    }
+
+    .myFooter > p {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 393px) {
+    .weddingDiv {
+        width: 393px;
+        height: 852px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 393px;
+        height: 852px;
+    }
+
+    .headerImg1 {
+        width: 393px;
+        height: 852px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 393px;
+        height: 852px;
+        font-size: 63px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 393px;
+        height: 852px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 32px; 
+    }
+
+    .label {
+        font-size: 15px; 
+    }
+
+    .weddingMain {
+        width: 393px;
+        height: 1240px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 27px;
+    }
+
+    .beforeOrnament {
+        font-size: 16px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 16px;
+    }
+
+    .afterOrnament2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 390px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 160px;
+        transform: translateX(-60%);
+        font-size: 12px;
+    }
+
+    .churchImg {
+        width: 20px;
+    }
+
+    
+    .restaurant {
+        top: 212px;
+        transform: translateX(-50%);
+        font-size: 12px;
+    }
+    
+    .restaurantImg {
+        width: 20px;
+    }
+
+    .footerDiv > a {
+        font-size: 18px;
+    }
+    .footerDiv > .myPage {
+        font-size: 18px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 19px;
+    }
+
+    .myFooter > p {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 412px) {
+    .weddingDiv {
+        width: 412px;
+        height: 915px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 412px;
+        height: 915px;
+    }
+
+    .headerImg1 {
+        width: 412px;
+        height: 915px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 412px;
+        height: 915px;
+        font-size: 68px;
+        padding-bottom: 140px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 412px;
+        height: 915px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 34px; 
+    }
+
+    .label {
+        font-size: 17px; 
+    }
+
+    .weddingMain {
+        width: 412px;
+        height: 1260px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 29px;
+    }
+
+    .beforeOrnament {
+        font-size: 17px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 17px;
+    }
+
+    .afterOrnament2 {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 412px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 165px;
+        transform: translateX(-59%);
+        font-size: 13px;
+    }
+
+    .churchImg{
+        width: 23px;
+    }
+
+    .restaurant {
+        top: 218px;
+        transform: translateX(-50%);
+        font-size: 13px;
+    }
+
+    .restaurantImg {
+        width: 23px;
+    }
+
+    .footerDiv > a {
+        font-size: 18px;
+    }
+    .footerDiv > .myPage {
+        font-size: 18px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 19px;
+    }
+
+    .myFooter > p {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 414px) {
+    .weddingDiv {
+        width: 414px;
+        height: 896px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 414px;
+        height: 896px;
+    }
+
+    .headerImg1 {
+        width: 414px;
+        height: 896px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 414px;
+        height: 896px;
+        font-size: 68px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 414px;
+        height: 896px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 34px; 
+    }
+
+    .label {
+        font-size: 17px; 
+    }
+
+    .weddingMain {
+        width: 414px;
+        height: 1260px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 29px;
+    }
+
+    .beforeOrnament {
+        font-size: 17px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .afterOrnament {
+        font-size: 17px;
+    }
+
+    .afterOrnament2 {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 414px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 168px;
+        transform: translateX(-59%);
+        font-size: 13px;
+    }
+
+    .churchImg{
+        width: 23px;
+    }
+
+    .restaurant {
+        top: 222px;
+        transform: translateX(-50%);
+        font-size: 13px;
+    }
+
+    .restaurantImg {
+        width: 23px;
+    }
+
+    .footerDiv > a {
+        font-size: 18px;
+    }
+    .footerDiv > .myPage {
+        font-size: 18px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 19px;
+    }
+
+    .myFooter > p {
+        font-size: 19px;
+    }
+} 
+@media screen and (min-width: 430px) {
+    .weddingDiv {
+        width: 430px;
+        height: 932px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 430px;
+        height: 932px;
+    }
+
+    .headerImg1 {
+        width: 430px;
+        height: 932px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 430px;
+        height: 932px;
+        font-size: 70px;
+        padding-bottom: 130px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 430px;
+        height: 932px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 36px; 
+    }
+
+    .label {
+        font-size: 18px; 
+    }
+
+    .weddingMain {
+        width: 430px;
+        height: 1310px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 38px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 35px;
+    }
+
+    .beforeOrnament {
+        font-size: 18px;
+    }
+
+    .img4 {
+        width: 350px;
+    }
+
+    .afterOrnament {
+        font-size: 18px;
+    }
+
+    .afterOrnament2 {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 180px;
+        height: 160px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 430px;
+        clip-path: inset(1px 2px 30px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 168px;
+        transform: translateX(-57%);
+        font-size: 14px;
+    }
+
+    .churchImg{
+        width: 24px;
+    }
+
+    .restaurant {
+        top: 225px;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+
+    .restaurantImg {
+        width: 24px;
+    }
+
+    .footerDiv > a {
+        font-size: 18px;
+    }
+    .footerDiv > .myPage {
+        font-size: 18px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 19px;
+    }
+
+    .myFooter > p {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 540px) {
+    .weddingDiv {
+        width: 540px;
+        height: 720px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 540px;
+        height: 720px;
+    }
+
+    .headerImg1 {
+        width: 540px;
+        height: 720px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 540px;
+        height: 720px;
+        font-size: 80px;
+        padding-bottom: 130px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 540px;
+        height: 720px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 38px; 
+    }
+
+    .label {
+        font-size: 20px; 
+    }
+
+    .weddingMain {
+        width: 540px;
+        height: 1480px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 35px;
+    }
+
+    .beforeOrnament {
+        font-size: 18px;
+    }
+
+    .img4 {
+        width: 350px;
+    }
+
+    .afterOrnament {
+        font-size: 18px;
+    }
+
+    .afterOrnament2 {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 200px;
+        height: 170px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 180px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 200px;
+        height: 170px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 180px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 540px;
+        clip-path: inset(1px 2px 55px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 210px;
+        transform: translateX(-57%);
+        font-size: 15px;
+    }
+
+    .churchImg{
+        width: 25px;
+    }
+
+    .restaurant {
+        top: 280px;
+        transform: translateX(-43%);
+        font-size: 15px;
+    }
+
+    .restaurantImg {
+        width: 25px;
+    }
+
+    .footerDiv > a {
+        font-size: 18px;
+    }
+    .footerDiv > .myPage {
+        font-size: 18px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 19px;
+    }
+
+    .myFooter > p {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .weddingDiv {
+        width: 768px;
+        height: 1024px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 768px;
+        height: 1024px;
+    }
+
+    .headerImg1 {
+        width: 768px;
+        height: 1024px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 768px;
+        height: 1024px;
+        font-size: 80px;
+        padding-bottom: 130px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 768px;
+        height: 1024px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 38px; 
+    }
+
+    .label {
+        font-size: 20px; 
+    }
+
+    .weddingMain {
+        width: 768px;
+        height: 1980px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 38px;
+    }
+
+    .beforeOrnament {
+        font-size: 22px;
+    }
+
+    .img4 {
+        width: 400px;
+    }
+
+    .afterOrnament {
+        font-size: 22px;
+    }
+
+    .afterOrnament2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 280px;
+        height: 230px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 250px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 280px;
+        height: 230px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 250px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 768px;
+        clip-path: inset(1px 2px 65px 2px);
+        padding: 0;
+    }
+
+    .church {
+        top: 280px;
+        transform: translateX(-57%);
+        font-size: 21px;
+    }
+
+    .churchImg{
+        width: 32px;
+    }
+
+    .restaurant {
+        top: 380px;
+        transform: translateX(-42%);
+        font-size: 21px;
+    }
+
+    .restaurantImg {
+        width: 32px;
+    }
+
+    .footerDiv > a {
+        font-size: 25px;
+    }
+    .footerDiv > .myPage {
+        font-size: 23px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 23px;
+    }
+
+    .myFooter > p {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 820px) {
+    .weddingDiv {
+        width: 820px;
+        height: 1180px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 820px;
+        height: 1180px;
+    }
+
+    .headerImg1 {
+        width: 820px;
+        height: 1180px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 820px;
+        height: 1180px;
+        font-size: 100px;
+        padding-bottom: 145px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 820px;
+        height: 1180px;
+        padding-top: 100px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 40px; 
+    }
+
+    .label {
+        font-size: 28px; 
+    }
+
+    .weddingMain {
+        width: 820px;
+        height: 2110px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 45px;
+    }
+
+    .beforeOrnament {
+        font-size: 25px;
+    }
+
+    .img4 {
+        width: 420px;
+    }
+
+    .afterOrnament {
+        font-size: 25px;
+    }
+
+    .afterOrnament2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 300px;
+        height: 250px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 280px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 300px;
+        height: 250px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 280px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 820px;
+        clip-path: inset(1px 2px 65px 2px);
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .church {
+        top: 300px;
+        transform: translateX(-57%);
+        font-size: 22px;
+    }
+
+    .churchImg{
+        width: 35px;
+    }
+
+    .restaurant {
+        top: 400px;
+        transform: translateX(-42%);
+        font-size: 22px;
+    }
+
+    .restaurantImg {
+        width: 35px;
+    }
+
+    .footerDiv > a {
+        font-size: 27px;
+    }
+    .footerDiv > .myPage {
+        font-size: 26px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 26px;
+    }
+
+    .myFooter > p {
+        font-size: 27px;
+    }
+}
+@media screen and (min-width: 853px) {
+    .weddingDiv {
+        width: 853px;
+        height: 1280px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 853px;
+        height: 1280px;
+    }
+
+    .headerImg1 {
+        width: 853px;
+        height: 1280px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 853px;
+        height: 1280px;
+        font-size: 120px;
+        padding-bottom: 145px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 853px;
+        height: 1280px;
+        padding-top: 150px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 60px; 
+    }
+
+    .label {
+        font-size: 32px; 
+    }
+
+    .weddingMain {
+        width: 853px;
+        height: 2150px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 45px;
+    }
+
+    .beforeOrnament {
+        font-size: 25px;
+    }
+
+    .img4 {
+        width: 420px;
+    }
+
+    .afterOrnament {
+        font-size: 25px;
+    }
+
+    .afterOrnament2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 300px;
+        height: 250px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 280px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 300px;
+        height: 250px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 280px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 853px;
+        clip-path: inset(1px 2px 65px 2px);
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .church {
+        top: 310px;
+        transform: translateX(-60%);
+        font-size: 23px;
+    }
+
+    .churchImg{
+        width: 38px;
+    }
+
+    .restaurant {
+        top: 420px;
+        transform: translateX(-43%);
+        font-size: 23px;
+    }
+
+    .restaurantImg {
+        width: 38px;
+    }
+
+    .footerDiv > a {
+        font-size: 27px;
+    }
+    .footerDiv > .myPage {
+        font-size: 26px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 26px;
+    }
+
+    .myFooter > p {
+        font-size: 27px;
+    }
+}
+@media screen and (min-width: 912px) {
+    .weddingDiv {
+        width: 912px;
+        height: 1368px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 912px;
+        height: 1368px;
+    }
+
+    .headerImg1 {
+        width: 912px;
+        height: 1368px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 912px;
+        height: 1368px;
+        font-size: 140px;
+        padding-bottom: 145px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 912px;
+        height: 1368px;
+        padding-top: 200px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 65px; 
+    }
+
+    .label {
+        font-size: 40px; 
+    }
+
+    .weddingMain {
+        width: 912px;
+        height: 2370px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 70px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 65px;
+    }
+
+    .beforeOrnament {
+        font-size: 32px;
+    }
+
+    .img4 {
+        width: 520px;
+    }
+
+    .afterOrnament {
+        font-size: 32px;
+    }
+
+    .afterOrnament2 {
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 350px;
+        height: 270px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 300px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 350px;
+        height: 270px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 300px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 912px;
+        clip-path: inset(1px 2px 75px 2px);
+        padding: 0;
+        padding-right: 0;
+    }
+
+    .church {
+        top: 320px;
+        transform: translateX(-54%);
+        font-size: 27px;
+    }
+
+    .churchImg{
+        width: 45px;
+    }
+
+    .restaurant {
+        top: 440px;
+        transform: translateX(-43%);
+        font-size: 27px;
+    }
+
+    .restaurantImg {
+        width: 45px;
+    }
+
+    .footerDiv > a {
+        font-size: 30px;
+    }
+    .footerDiv > .myPage {
+        font-size: 31px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 32px;
+    }
+
+    .myFooter > p {
+        font-size: 33px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .weddingDiv {
+        width: 1024px;
+        height: 1366px;
+    }
+
+    .weddingHeader {
+        position: relative;
+        width: 1024px;
+        height: 1366px;
+    }
+
+    .headerImg1 {
+        width: 1024px;
+        height: 1366px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 1024px;
+        height: 1366px;
+        font-size: 130px;
+        padding-bottom: 170px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 1024px;
+        height: 1366px;
+        padding-top: 100px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 50px; 
+    }
+
+    .label {
+        font-size: 40px; 
+    }
+
+    .weddingMain {
+        width: 1024px;
+        height: 2510px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 70px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 60px;
+    }
+
+    .beforeOrnament {
+        font-size: 30px;
+    }
+
+    .img4 {
+        width: 520px;
+    }
+
+    .afterOrnament {
+        font-size: 30px;
+    }
+
+    .afterOrnament2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 150px;
+        padding-top: 20px;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 370px;
+        height: 300px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 320px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 370px;
+        height: 300px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 320px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 1024px;
+        clip-path: inset(1px 2px 100px 2px);
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .church {
+        top: 360px;
+        transform: translateX(-57%);
+        font-size: 28px;
+    }
+
+    .churchImg{
+        width: 45px;
+    }
+
+    .restaurant {
+        top: 490px;
+        transform: translateX(-42%);
+        font-size: 28px;
+    }
+
+    .restaurantImg {
+        width: 45px;
+    }
+
+    .footerDiv > a {
+        font-size: 30px;
+    }
+    .footerDiv > .myPage {
+        font-size: 30px;
+    }
+
+    .footerDiv > .myPage:hover {
+        font-size: 32px;
+    }
+
+    .myFooter > p {
+        font-size: 33px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .weddingDiv {
+        width: 1025px;
+        height: 600px;
+    }
+    
+    .weddingHeader {
+        position: relative;
+        width: 1025px;
+        height: 600px;
+    }
+
+    .headerImg1 {
+        width: 1025px;
+        height: 600px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 1025px;
+        height: 600px;
+        font-size: 110px;
+        padding-bottom: 120px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 1025px;
+        height: 600px;
+        padding-top: 150px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 50px; 
+    }
+
+    .label {
+        font-size: 30px; 
+    }
+
+    .weddingMain {
+        width: 1025px;
+        height: 1040px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 50px;
+    }
+
+    .beforeOrnament {
+        font-size: 28px;
+    }
+
+    .img4 {
+        width: 450px;
+    }
+
+    .afterOrnament {
+        font-size: 28px;
+    }
+
+    .afterOrnament2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 0;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 200px;
+        height: 170px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 170px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 200px;
+        height: 180px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 170px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 510px;
+        clip-path: inset(1px 2px 50px 2px);
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .church {
+        top: 200px;
+        transform: translateX(-67%);
+        font-size: 14px;
+    }
+
+    .churchImg{
+        width: 25px;
+    }
+
+    .restaurant {
+        top: 270px;
+        transform: translateX(-48%);
+        font-size: 14px;
+    }
+
+    .restaurantImg {
+        width: 25px;
+    }
+
+    .footerDiv > a {
+        font-size: 19px;
+    }
+    .footerDiv > .myPage {
+        font-size: 19px;
+    }
+    .footerDiv > .myPage:hover {
+        font-size: 20px;
+    }
+    .myFooter > p {
+        font-size: 21px;
+    } 
+}
+@media screen and (min-width: 1280px) {
+    .weddingDiv {
+        width: 1280px;
+        height: 800px;
+    }
+    
+    .weddingHeader {
+        position: relative;
+        width: 1280px;
+        height: 800px;
+    }
+
+    .headerImg1 {
+        width: 1280px;
+        height: 800px;
+        clip-path: inset(0);
+        transform: translateY(0);
+    }
+
+    .weddingInfo {
+        width: 1280px;
+        height: 800px;
+        font-size: 110px;
+        padding-bottom: 120px;
+    }
+
+    .countDown {
+        flex-direction: row; 
+        width: 1280px;
+        height: 800px;
+        padding-top: 150px;
+        padding-right: 0;
+    }
+    
+    .number {
+        font-size: 50px; 
+    }
+
+    .label {
+        font-size: 30px; 
+    }
+
+    .weddingMain {
+        width: 1280px;
+        height: 1170px;
+        padding-top: 20px;
+    }
+
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .addressDiv {
+        padding-top: 40px;
+    }
+
+    .dayOfWedding {
+        font-size: 50px;
+    }
+
+    .beforeOrnament {
+        font-size: 28px;
+    }
+
+    .img4 {
+        width: 450px;
+    }
+
+    .afterOrnament {
+        font-size: 28px;
+    }
+
+    .afterOrnament2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .weddingMainImg {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 0;
+    }
+
+    .img5 {
+        padding-top: 0px;
+        width: 270px;
+        height: 200px;
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+
+    .img6 {
+        padding-top: 0px;
+        width: 250px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .img7 {
+        padding-top: 0px;
+        width: 270px;
+        height: 200px;
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+
+    .img8 {
+        padding-top: 0px;
+        width: 250px;
+        height: auto;
+        border-radius: 35%;
+    }
+
+    .vertical {
+        height: 620px;
+        clip-path: inset(1px 2px 50px 2px);
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .church {
+        top: 240px;
+        transform: translateX(-68%);
+        font-size: 17px;
+    }
+
+    .churchImg{
+        width: 28px;
+    }
+
+    .restaurant {
+        top: 330px;
+        transform: translateX(-48%);
+        font-size: 17px;
+    }
+
+    .restaurantImg {
+        width: 28px;
+    }
+
+    .footerDiv > a {
+        font-size: 21px;
+    }
+    .footerDiv > .myPage {
+        font-size: 22px;
+    }
+    .footerDiv > .myPage:hover {
+        font-size: 23px;
+    }
+    .myFooter > p {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1835px) {
+    .weddingDiv {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .weddingHeader {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img1Div {
+        width: 1835px;
+        height: 932px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .headerImg1 {
+        width: 1835px;
+        height: auto;
+        clip-path: inset(200px 0);
+        transform: translateY(-200px);
+        filter: grayscale(100%) brightness(40%);
+    }
+    
+    .weddingInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        font-family: "Beau Rivage", cursive;
+        z-index: 1;
+        width: 1835px;
+        height: 932px;
+        font-size: 100px;
+        font-weight: 500;
+        color: #fff;
+        padding-bottom: 100px;
+    }
+    
+    .countDown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        font-family: "PT Serif", serif;
+        z-index: 1;
+        width: 1835px;
+        height: 932px;
+        padding-top: 200px;
+        gap: 50px;
+    }
+    
+    .timeSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .number {
+        font-size: 50px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    .label {
+        font-size: 45px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .weddingMain {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .weddingMainDiv {
+        text-align: center;
+    }
+    
+    .weddingMainH2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 35px;
+        font-weight: 500;
+        color: #626265;
+    }
+    
+    .beforeOrnament {
+        padding-bottom: 20px;
+        font-size: 18px;
+        color: #626265;
+    }
+    
+    .afterOrnament {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        color: #626265;
+    }
+    
+    .afterOrnament2 {
+        font-size: 18px;
+        color: #626265;
+    }
+    
+    .weddingDay {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img4 {
+        width: 500px;
+        height: auto;
+    }
+    
+    .dayOfWedding {
+        position: absolute;
+        z-index: 1;
+        font-size: 40px;
+        font-family: "Beau Rivage", cursive;
+        text-align: center;
+        color: #626265;
+        font-style: italic;
+    }
+    
+    .weddingMainImg {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 50px;
+    }
+    
+    .leftColumn,
+    .rightColumn {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .img5 {
+        width: 460px;
+        height: auto;
+        padding-top: 35px;
+        filter: grayscale(100%) brightness(70%);
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+    
+    .img6 {
+        width: 400px;
+        height: auto;
+        padding-top: 35px;
+        filter: grayscale(100%) brightness(70%);
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+    
+    .img7 {
+        width: 460px;
+        height: auto;
+        padding-top: 35px;
+        filter: grayscale(100%) brightness(70%);
+        border-radius: 35%;
+        transform: rotate(15deg);
+    }
+    
+    .img8 {
+        width: 400px;
+        height: auto;
+        padding-top: 35px;
+        filter: grayscale(100%) brightness(70%);
+        border-radius: 35%;
+        transform: rotate(-15deg);
+    }
+    
+    .addressDiv {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 150px;
+    }
+    
+    .vertical {
+        height: 650px;
+        clip-path: inset(1px 2px 50px 2px);
+    }
+    
+    .church,
+    .restaurant{
+        position: absolute;
+        left: 50%;
+        color: #626265;
+    }
+    
+    .churchImg {
+        width: 40px;
+    }
+    
+    .restaurantImg {
+        width: 40px;
+    }
+    
+    .church {
+        top: 45%;
+        transform: translateX(-75%);
+    }
+    
+    .churchHref {
+        color: #626265;
+        font-style: italic;
+    }
+    
+    .restaurant {
+        top: 58%;
+        transform: translateX(-49%);
+    }
+    
+    .restaurantHref {
+        color: #626265;
+        font-style: italic;
+    }
+    
+    .myFooter {
+        padding-top: 20px;
+    }
+    
+    .footerDiv {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .footerDiv > a {
+        font-size: 20px;
+        color: #626265;
+        padding-left: 15px;
+    }
+    
+    .myPage {
+        text-decoration: none;
+        font-size: 20px;
+        padding-right: 15px;
+    }
+    
+    .myPage:hover {
+        font-size: 22px;
+    }
+    
+    .myFooter > p {
+        text-align: center;
+        color: #626265;
+        font-size: 22px;
+    }
+}
+
